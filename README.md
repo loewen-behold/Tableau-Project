@@ -44,17 +44,18 @@ Some of the Visuals created for the 3 dashboards constructed for this project ar
 - Graphs using time (years) as an horizontal axis to see the change of mortality rate, number of deaths, YoY change, and gdp.  These can be particurly powerful when combining more than one of these to compare.
 - Forcasting of Mortality Rates for the next 4 years
 - Top N Bar Charts to indicate top causes of death per country/region
+- Bar chart listing the fastest growing diseases (along with their percent change for a user defined date range)
 
 
 ### 4. Answer And Refine Questions (Iterative)
-As my dashboards were being constructed, I would have some of my answers reveal themselves quickly, but new ideas and questions would emerge.  Sometimes an anomoly in the data cuased me to create a new sheet/visual to pull on a new thread.  I actually found that my curiosity was increasing the more I played with the data, but at some point I had to realize that there are too many threads and leads to follow, so I had to narrow my scope of question down to what its become above.
+As my dashboards were being constructed, I would have some of my answers reveal themselves quickly, but new ideas and questions would emerge.  Sometimes an anomoly in the data caused me to create a new sheet/visual to explore this new question.  I actually found that my curiosity was increasing the more I played with the data, but at some point I had to realize that there are too many threads and leads to follow, so I had to narrow my scope of questions down to what its become above.
 
 
 ## Results
 **I chose Option 2 --> V) Causes of Death - Our World In Data**
 
 ### Dashboard 1: "Mo Money Less Problems?" The Hans Rosling Visual
-This visual is a bubble chart that is packed with information.  First of all, it's a graph that compares the GDP and the Mortality rate of every country.  Every bubble on the chart represents a country and the size of the bubbles represents the varying populations of those countries.  The colour of the country indicates which region of the world that country is in.  As the years are changed, these bubbles move in a fascinating "dance" as we observe the average GDP of countries increases over time and the average mortality rate decreasing over time.  Like a school of fish, these unique countries dart around the grid in it's own unique path, while the overall cluster moves together as a whole.
+This visual is a bubble chart that is packed with information.  Essentially, it's a graph that compares the GDP and the Mortality rate of every country.  Every bubble on the chart represents a country and the size of the bubbles represents the varying populations of those countries.  The colour of the country indicates which region of the world that country is in.  As the years are changed, these bubbles move in a fascinating "dance" as we observe the average GDP of countries increases over time and the average mortality rate decreasing over time.  Like a school of fish, these unique countries dart around the grid in it's own unique path, while the overall cluster moves together as a whole.
 
 #### Key Take-aways
 At first glance, my first question was answered.  "Does gdp (a measure of economic "health") of a country/region play a role in the number of deaths observed and mortality rate in that country/region?" - Yes!  When can clearly see the as the overall global GDP increases, the global mortality rate decreases.
