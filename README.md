@@ -5,9 +5,9 @@
 #### Chosen Project: Option 2 --> V) Causes of Death - Our World In Data
 
 My goal is to use the Causes of Death database, along with a few other sources in order to gain some insight and answer the following questions:
-1. Does gdp (a measure of economic "health") of a country/region play a role in the number of deaths observed and mortality rate in that country/region?  I hypothesize that the higher the gdp, the lower the mortality rate.
+1. Does GDP (a measure of economic "health") of a country/region play a role in the number of deaths observed and mortality rate in that country/region?  I hypothesize that the higher the GDP, the lower the mortality rate.
 2. Are there any outlier regions or countries that break this hypothesis?
-3. What are the most common causes of death in countries that have a higher gdp and in those that have a lower gdp.  Are there reasons for this?
+3. What are the most common causes of death in countries that have a higher GDP and in those that have a lower GDP.  Are there reasons for this?
 4. Determine what the fastest growing causes of death are in particular countries - mainly North American countries (which have the highest regional GDP in the world).
 
 ## Process
@@ -27,7 +27,7 @@ My goal is to use the Causes of Death database, along with a few other sources i
 - Lastly, I pulled information that groups countries by region.
 
 #### Reshaping:
-- I had to reshape the Population and gdp tables to mimic the structure of the Causes of Death table.  This helps Tableau to be able to more easily connect the tables together.  I performed this task within Tableau by selecting all of the "year" columns and pivoting them to become rows instead.
+- I had to reshape the Population and GDP tables to mimic the structure of the Causes of Death table.  This helps Tableau to be able to more easily connect the tables together.  I performed this task within Tableau by selecting all of the "year" columns and pivoting them to become rows instead.
 
 ### 2. Create Calculated Fields and Parameters
 In order to gain the insights I am looking for, I needed to calculate some new fields and a parameter to use in my dashboards. Particularly:
@@ -47,7 +47,7 @@ Some of the Visuals created for the 3 dashboards constructed for this project ar
 
 
 ### 4. Answer And Refine Questions (Iterative)
-As my dashboards were being constructed, I would have some of my answers reveal themselves quickly, but new ideas and questions would emerge.  Sometimes an anomoly in the data cuased me to create a new sheet/visual to pull on a new thread.  I actually found that my curiosity was increasing the more I played with the data, but at some point I had to realize that there are too many threads and leads to follow, so I had to narrow my scope of question down to what it's become above.
+As my dashboards were being constructed, I would have some of my answers reveal themselves quickly, but new ideas and questions would emerge.  Sometimes an anomoly in the data cuased me to create a new sheet/visual to pull on a new thread.  I actually found that my curiosity was increasing the more I played with the data, but at some point I had to realize that there are too many threads and leads to follow, so I had to narrow my scope of question down to what its become above.
 
 
 ## Results
@@ -66,14 +66,16 @@ The dynamic bubble chart is a great "big picture" tool, but we need to drill dow
 ### Dashboard 2: Regional Mortality Dashboard
 This visual is intended to zoom in a little closer to mortality rates and GDP for specific Regions.  This includes a direct comparison between the timeline trend of the GDP and the mortality rate over the years.  In order to find the regions that do not fit this initial observation, I needed to find a chart where GDP is increasing and mortality rate is also increasing.
 
+#### Key Take-aways
 It turns out that regions who have had a higher overall GDP throughout the years (North America, Europe, Central Asia) happen to have a increasing GDP, but also an increasing mortality rate.  Whereas the regions that are not as "developed" and have lower GDPs do experience a drop in mortality rate.  I believe that as these developing regions have more improved economies, the health care systems and access to those systems improve.  However, what is happening with these more developed countries?  With higher GDPs and likely higher average incomes, what kinds of causes of death plague these countries that don't necessarily plague the others?
 
 In order to answer these questions, I needed to focus in on the specific causes of death for each country.
 
-### Dashbaord 3: Top Causes and Emerging Causes
-This dashbord focuses in on the top N causes of death for specific countries and for a specific range of time.  It not only shows the top causes of death, it also breaks down the number of deaths per year, as well as the year over year change.  It includes a visual of the ratio of deaths for each of the top N causes in order to identify how each cause compares to the others in the context of total deaths.  Likely one of the most important pieces of information this dashboard contains is the Percent Change in deaths.  This may seem like a simple thing, but this allows us to pinpoint which causes of death are on the rise. In other words, there may be causes of death that claim the most lives year over year, but they may not be the fastest growing causes of death.  
+### Dashboard 3: Top Causes and Emerging Causes
+This dashboard focuses in on the top N causes of death for specific countries and for a specific range of time.  It not only shows the top causes of death, it also breaks down the number of deaths per year, as well as the year over year change.  It includes a visual of the ratio of deaths for each of the top N causes in order to identify how each cause compares to the others in the context of total deaths.  Likely one of the most important pieces of information this dashboard contains is the Percent Change in deaths.  This may seem like a simple thing, but this allows us to pinpoint which causes of death are on the rise. In other words, there may be causes of death that claim the most lives year over year, but they may not be the fastest growing causes of death.  
 
-With this dashboard and information, we can finally get some insight into the countries that didn't fit our initial hypothesis.  We see that in countries with higher GDPs, we have problems like Cardiovascular Disease and Neoplasms (Cancers).  With more money, we tend to buy and consume different (more rich, fatty, sugary) foods and with larger distances to travel and easy access to transportation, we don't move around as much - we are less active.  These top causes are likely a reflection of that lifestyle.  The reality is that these causes of death are also on the top N list of many countries, even ones with lower GDPs, but they are not as pervasive, and in many cases, they are far from the top two.  Some issues that plague some lesser gdp countries are HIV/Aids, Diarrheal Diseases, Malaria, Tuberculosis, and Neonatal Disorders, to name a few.  This is not true of all of them, but certainly too many of them.  This is sad because these are some things that wouldn't even show up on the list with improved and more accessible health care.
+#### Key Take-aways
+With this dashboard and information, we can finally get some insight into the countries that didn't fit our initial hypothesis.  We see that in countries with higher GDPs, we have problems like Cardiovascular Disease and Neoplasms (Cancers).  With more money, we tend to buy and consume different (more rich, fatty, sugary) foods and with larger distances to travel and easy access to transportation, we don't move around as much - we are less active.  These top causes are likely a reflection of that lifestyle.  The reality is that these causes of death are also on the top N list of many countries, even ones with lower GDPs, but they are not as pervasive, and in many cases, they are far from the top two.  Some issues that plague some lesser GDP countries are HIV/Aids, Diarrheal Diseases, Malaria, Tuberculosis, and Neonatal Disorders, to name a few.  This is not true of all of them, but certainly too many of them.  This is sad because these are some things that wouldn't even show up on the list with improved and more accessible health care.
 
 Likely one of the most interesting findings is the fastest growing causes of death in come countries.  The fastest growing cause of death in North America is drug use.  Drug use and overdoses has increased by nearly 1000% in the last 30 years!!  While the number of deaths is nowhere near the that of Cardiovascular disease and neoplasms, the rate of change of drug-use related deaths is absolutely staggering.  I'd love to know what is causing this ... are we bored?  Are we depressed?  What are we escaping from?  
 
