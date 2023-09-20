@@ -29,7 +29,7 @@ My goal is to use the Causes of Death database, along with a few other sources i
 #### Reshaping:
 - I had to reshape the Population and gdp tables to mimic the structure of the Causes of Death table.  This helps Tableau to be able to more easily connect the tables together.  I performed this task within Tableau by selecting all of the "year" columns and pivoting them to become rows instead.
 
-### 2. Created Calculated Fields and Parameters
+### 2. Create Calculated Fields and Parameters
 In order to gain the insights I am looking for, I needed to calculate some new fields and a parameter to use in my dashboards. Particularly:
 - Mortality Rate (%)
 - Total Deaths for varying years (LOD Calculation)
@@ -37,7 +37,7 @@ In order to gain the insights I am looking for, I needed to calculate some new f
 - Percent Change in number of deaths (for a date range specified by the user)
 - Top N parameter
 
-### 3. Created Informational Visuals that I believed would answer my questions
+### 3. Create Effective Visuals for Dashboards
 Some of the Visuals created for the 3 dashboards constructed for this project are:
 - Mortality vs. Gdp for various regions around the globe - Truth be told, I really wanted to create a visual that was similar to the one presented by Hans Rosling on a Ted talk called "The Best Stats You've Ever Seen".
 - Maps with colouring to indicate mortality rates - so we can quickly identify the regions that are "hot spots" for any particular causes of death
@@ -46,7 +46,7 @@ Some of the Visuals created for the 3 dashboards constructed for this project ar
 - Top N Bar Charts to indicate top causes of death per country/region
 
 
-### 4. Answered And Refined Questions as I went along
+### 4. Answer And Refine Questions (Iterative)
 As my dashboards were being constructed, I would have some of my answers reveal themselves quickly, but new ideas and questions would emerge.  Sometimes an anomoly in the data cuased me to create a new sheet/visual to pull on a new thread.  I actually found that my curiosity was increasing the more I played with the data, but at some point I had to realize that there are too many threads and leads to follow, so I had to narrow my scope of question down to what it's become above.
 
 
