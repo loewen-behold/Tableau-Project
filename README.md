@@ -54,7 +54,7 @@ As my dashboards were being constructed, I would have some of my answers reveal 
 ## Results
 **I chose Option 2 --> V) Causes of Death - Our World In Data**
 
-### Dashboard 1: "Mo Money Less Problems?" The Hans Rosling Visual
+### Dashboard 1: Does GDP Affect Mortality Rate? - The Hans Rosling Visual
 This visual is a bubble chart that is packed with information.  Essentially, it's a graph that compares the GDP and the Mortality rate of every country.  Every bubble on the chart represents a country and the size of the bubbles represents the varying populations of those countries.  The colour of the country indicates which region of the world that country is in.  As the years are changed, these bubbles move in a fascinating "dance" as we observe the average GDP of countries increases over time and the average mortality rate decreasing over time.  Like a school of fish, these unique countries dart around the grid in it's own unique path, while the overall cluster moves together as a whole.
 
 #### Key Take-aways
